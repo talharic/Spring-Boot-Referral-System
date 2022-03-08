@@ -28,5 +28,4 @@ public class User {
     private String referralCode;
     private String referredByCode;
 
-
 }

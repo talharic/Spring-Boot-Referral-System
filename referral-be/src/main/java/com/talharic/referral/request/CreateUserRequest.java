@@ -9,8 +9,7 @@ import javax.validation.constraints.NotNull;
 public class CreateUserRequest {
 
 
-    @NotNull
-    @NotEmpty
+    @NotNull @NotEmpty
     private String username;
 
     @NotNull @NotEmpty
